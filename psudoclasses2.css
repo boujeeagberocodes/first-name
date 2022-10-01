@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+background-image:url(/minimalist.jpg);
+-webkit-background-size: cover;
+background-size: cover;
+background-position: center center;
+height: 100vh;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 600;
+font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+header{ 
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 30px 70px;
+    background-color: black;
+   
+
+}
+.logo{
+    cursor: pointer;
+}
+.nav-area{
+    list-style:none;
+}
+.nav-area li{
+    display: inline-block;
+    padding: 0px 15px;
+    text-transform: uppercase;
+}
+.nav-area li a {
+    transition: .3s;
+    color:white;
+    
+}
+.nav-area li a :hover{ 
+    color:white
+}
+.logo{
+    width: 60px;
+    height: 40px;
+}
+article{
+    line-height: 1.5;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+/*
+article > p:first-of-type {
+    background-color: blueviolet;
+}
+article > p:last-of-type {
+    background-color: blueviolet;
+}
+*/
+article > p:first-child{
+    background-color: brown;
+}

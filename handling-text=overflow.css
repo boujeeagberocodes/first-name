@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    background-color: aliceblue;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 170px;
+}
+header{ 
+    width: 100%;
+    padding-block: 20px;
+    
+}
+.nav{
+    text-align: center;
+}
+.span{
+    padding: 10px;
+}
+img{
+        height: 200px;
+        width: 100%;
+}
+.cards{
+    height: 400px;
+    margin: 20px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.cards div{
+    padding: 10px;
+}
+.cards div .blog-heading{
+    font-size: 2px;
+      font-weight: bold;
+      padding: 0;
+}
+.slaps{
+    border-radius:10px;
+}
+.blog-title{
+    margin: 6px 6px 6px;
+    font-size: 24px;
+    font-family: monospace;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.blog-part{
+    margin: 6px 6px 6px;
+    font-size: 14px;
+    font-family: monospace;
+    word-break: break-all;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+}    
